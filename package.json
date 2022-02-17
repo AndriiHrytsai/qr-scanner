@@ -1,0 +1,21 @@
+{
+  "name": "qr-scanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jimp": "^0.16.1",
+    "jsqr": "^1.4.0",
+    "node-fetch": "^3.2.0",
+    "tesseract.js": "^2.1.5"
+  }
+}
